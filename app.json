@@ -1,6 +1,6 @@
 {
-    "name": "بوت يوتيوب", 
-    "description": "لتحميل الفيديوهات و الاغاني من اليوتيوب",
+    "name": "Youtube",
+    "description": "بوت تيليجرام لتحميل الفيديوهات و الاغاني من اليوتيوب.",
     "logo": "https://telegra.ph/file/e9e3f115d2e530f9c7a9e.jpg",
     "keywords": [
         "Youtube",
@@ -8,7 +8,7 @@
         "Telegram Bot",
         "RR7PP"
     ],
-    "website": "https://telegram.dog/RR7PP",
+    "website": "https://telegram.dog/JMTHON",
     "repository": "https://github.com/RR9R7/Youtube",
     "success_url": "https://t.me/RR7PP",
     "env": {
@@ -17,11 +17,11 @@
             "value": ""
         },
         "API_HASH": {
-            "description": "ايبي هاش احصل عليه من هنا my.telegram.org",
+            "description": "ايبي هاش احصل علي من هنا my.telegram.org",
             "value": ""
         },
         "APP_ID": {
-            "description": "ايبي ايدي احصل عليه من هنا my.telegram.org",
+            "description": "ايبي ايدي احصل علي من هن my.telegram.org",
             "value": ""
         },
     },
