@@ -34,7 +34,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>أهلا بك عزيزي،
 
-من خلال هذا البوت يمكنك تحميا الاغاني والفيديوهات من اليوتيوب اضغط على الخيارات بالأسفل لمزيد من المعلومات 
+من خلال هذا البوت يمكنك تحميل الاغاني والفيديوهات من اليوتيوب اضغط على الخيارات بالأسفل لمزيد من المعلومات 
 ▷ BY : @RR7PP
 </b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -54,7 +54,7 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b><u>بوت اليوتيوب</u></b>
 
-فقط ارسا رابط الفيديو او الاغنية لتحميلها وارسالها لك
+فقط ارسل رابط الفيديو او الاغنية لتحميلها وارسالها لك
 
 <b>▷ DEV :</b> @RR7PP""",
         reply_markup=InlineKeyboardMarkup(
