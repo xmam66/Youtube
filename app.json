@@ -5,25 +5,32 @@
     "keywords": [
         "Youtube",
         "Video Downloader",
-        "Telegram Bot",
-        "RR7PP"
+        "Telegram Bot"
     ],
     "website": "https://telegram.dog/JMTHON",
     "repository": "https://github.com/RR9R7/Youtube",
     "success_url": "https://t.me/RR7PP",
     "env": {
         "TG_BOT_TOKEN": {
-            "description": "توكن البوت احصل عليه من هنا @BotFather",
+            "description": "Your Telegram Bot Token from @BotFather",
             "value": ""
         },
         "API_HASH": {
-            "description": "ايبي هاش احصل علي من هنا my.telegram.org",
+            "description": "Your API Hash from my.telegram.org",
             "value": ""
         },
         "APP_ID": {
-            "description": "ايبي ايدي احصل علي من هن my.telegram.org",
+            "description": "Your APP ID from my.telegram.org",
             "value": ""
         },
+        "AUDIO_THUMBNAIL": {
+            "description": "If you need to use custom thumbnail for audio files, get telegraph url of your thumbnail and put here. If not keep No",
+            "value": "No"
+        },
+        "VIDEO_THUMBNAIL": {
+            "description": "If you need to use custom thumbnail for video files, get telegraph url of your thumbnail and put it here. If not keep No",
+            "value": "No"
+        }
     },
     "addons": [],
     "buildpacks": [
